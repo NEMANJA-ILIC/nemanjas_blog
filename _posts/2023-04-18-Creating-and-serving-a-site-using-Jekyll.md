@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Creating and serving a site using Jekyll"
-date: 2023-04-17 +0200
+date: 2023-04-18 +0200
 tags: jekyll windows
 images: /assets/images/2023-04-18-Creating-and-serving-a-site-using-Jekyll
 ---
