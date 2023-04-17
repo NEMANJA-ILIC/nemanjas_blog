@@ -11,6 +11,7 @@ The preconditions for creating and serving a Jekyll site locally are having inst
 - Jekyll
 
 If the required applications are not present on the system, a tutorial on how to install them can be found on the following link:
+
 [How to install Jekyll on Windows]({{ site.host_site }}/2023/04/17/How-to-install-Jekyll-on-Windows.html)
 
 ## Creating a Jekyll site
