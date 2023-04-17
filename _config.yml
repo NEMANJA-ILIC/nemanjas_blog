@@ -23,7 +23,7 @@ title: Nemanja's blog
 description: >- # this means to ignore newlines until "baseurl:"
   Nemanja Ilic's blog where he shares his projects and his opinions about current 
   interesting technologies. The site is WIP.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/nemanjas_blog" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: #jekyllrb
 # github_username:  NEMANJA-ILIC
