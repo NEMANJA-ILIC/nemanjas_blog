@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "How to install Jekyll on Windows"
-date: 2023-04-17
-categories: jekyll
+date: 2023-04-17 +0200
+tags: jekyll windows
+permalink: /2023/04/17/How-to-install-Jekyll-on-Windows.html
 ---
 
 Jekyll is a static website generator that is based on Ruby. Having that in mind, the first thing that should be done is to install Ruby i.e. Ruby programming language.

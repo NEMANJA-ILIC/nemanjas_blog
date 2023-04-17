@@ -31,6 +31,9 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # Build settings
 # theme: minima
 
+# If github is ever substituted for a different hosting site, change this line for redirects to work.
+host_site: "https://nemanja-ilic.github.io/nemanjas_blog"
+
 minima:
   skin: auto
   social_links:
