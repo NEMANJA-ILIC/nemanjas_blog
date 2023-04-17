@@ -1,5 +1,6 @@
 ---
 layout: base
+author: "Nemanja Ilic"
 ---
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
@@ -20,7 +21,14 @@ layout: base
       {%- if page.author -%}
         • {% for author in page.author %}
           <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-            <span class="p-author h-card" itemprop="name">{{ author }}</span></span>
+            <span class="p-author h-card" itemprop="name">
+              {%- if page.author_link -%}
+                <a href="{{ page.author_link }}" style="color: inherit;">{{ author }}</a>
+              {%- else -%}
+                {{ author }}
+              {%- endif -%}
+            </span>
+          </span>
             {%- if forloop.last == false %}, {% endif -%}
         {% endfor %}
       {%- endif -%}</p>
